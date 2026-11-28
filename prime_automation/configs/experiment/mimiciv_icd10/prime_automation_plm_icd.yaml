@@ -1,0 +1,19 @@
+# @package _global_
+defaults:
+  - override /model: plm_icd
+
+dataloader:
+  max_batch_size: 2
+  batch_size: 16
+
+optimizer:
+  configs:
+    lr: 5e-5
+    weight_decay: 0
+
+trainer:
+  threshold_tuning: true
+  epochs: 20
+
+data:
+  data_filename: mimiciv_icd10_prime_automation_plm_icd.feather

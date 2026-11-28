@@ -1,0 +1,6 @@
+dir: artifacts/mimiciv_icd10
+data_filename: ???
+code_column_names:
+  - icd10_diag
+  - icd10_proc
+max_length: 4000

@@ -1,0 +1,3 @@
+- name: Precision_K
+  configs:
+    k: 1

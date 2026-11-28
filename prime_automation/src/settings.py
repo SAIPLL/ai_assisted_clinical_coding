@@ -1,0 +1,6 @@
+PAD_TOKEN = "<PAD>"
+UNKNOWN_TOKEN = "<UNK>"
+
+ID_COLUMN = "_id"
+TEXT_COLUMN = "text"
+TARGET_COLUMN = "target"

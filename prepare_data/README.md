@@ -18,7 +18,7 @@ Saved in `artifacts/mdace/mdace.feather`.
 
 ## MIMIC-IV ICD-10
 
-Saved in `artifacts/mimiciv_icd10/mimiciv_icd10_all_sorted.feather`. A version in which every code is replaced by its parent code (refer to the paper for definition) is saved in `artifacts/mimiciv_icd10/mimiciv_icd10_all_parents_sorted.feather`.
+Saved in `artifacts/mimiciv_icd10/mimiciv_icd10_all_sorted.feather`. In `artifacts/mimiciv_icd10/mimiciv_icd10_all_parents_sorted.feather`, every code is replaced by its parent code (see the paper for the definition).
 
 The preprocessing follows [Edin et al. (2023)](https://github.com/JoakimEdin/medical-coding-reproducibility), except that infrequent codes are kept. Admissions are randomly split by patient into train (55%), val (20%), and test (25%) sets.
 

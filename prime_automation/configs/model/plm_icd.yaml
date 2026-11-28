@@ -1,0 +1,5 @@
+name: PLMICD
+configs:
+  model_path: ../resources/models/RoBERTa-base-PM-M3-Voc-hf
+
+
