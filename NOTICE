@@ -1,0 +1,7 @@
+Copyright 2026 Yidong Gan
+
+This repository includes modified code from the following projects:
+
+- prepare_data/prepare_mimiciv_icd10.py is adapted from
+  medical-coding-reproducibility (https://github.com/JoakimEdin/medical-coding-reproducibility),
+  licensed under the Apache License, Version 2.0.

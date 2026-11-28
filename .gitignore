@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# Data (credentialed; do not commit)
+resources/
+artifacts/
+
+# Other
+AGENTS.md
